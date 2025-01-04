@@ -176,7 +176,7 @@ class Jobs extends Component {
                   className="search-input"
                   type="search"
                   onChange={this.onChangeSearchInput}
-                  placholder="Search"
+                  placeholder="Search"
                 />
                 <button
                   className="search-btn"
@@ -201,7 +201,7 @@ class Jobs extends Component {
                   type="search"
                   onChange={this.onChangeSearchInput}
                   value={searchInput}
-                  placholder="Search"
+                  placeholder="Search"
                 />
                 <button
                   className="search-btn"

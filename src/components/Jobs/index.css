@@ -1,0 +1,142 @@
+.jobs-page-container {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 90vh;
+}
+
+.jobs-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .jobs-container {
+    flex-direction: row;
+  }
+
+  .profile-and-filters-group-container {
+    width: 23%;
+  }
+}
+
+@media (min-width: 768px) {
+  .jobs-search-and-list-container {
+    padding-left: 30px;
+    width: 77%;
+  }
+}
+
+.jobs-mobile-search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.jobs-laptop-search-container {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .jobs-mobile-search-container {
+    display: none;
+  }
+
+  .jobs-laptop-search-container {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    border: 1px solid #64748b;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+.search-input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search-btn {
+  width: 50px;
+  background-color: #272727;
+  border: none;
+  cursor: pointer;
+}
+
+.search-btn-icon {
+  font-size: 15px;
+  color: #f8fafc;
+}
+
+.jobs-list-container {
+  padding: 0px;
+}
+
+.loader-container {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* No Jobs */
+
+.no-jobs-container {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-jobs-img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.no-jobs-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+
+.no-jobs-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #cbd5e1;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px 0px 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .no-jobs-heading {
+    font-size: 30px;
+  }
+
+  .no-jobs-text {
+    font-size: 16px;
+  }
+}

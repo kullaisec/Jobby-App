@@ -1,0 +1,91 @@
+.filters-group-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #cbd5e1;
+  font-weight: 500;
+  margin: 25px 0px 20px 0px;
+}
+
+@media (min-width: 768px) {
+  .filters-group-heading {
+    font-size: 16px;
+  }
+}
+
+.employment-types-list-container {
+  padding: 0px;
+}
+
+.employment-types-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.list-item-checkbox {
+  margin: 0px 10px 0px 0px;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .list-item-checkbox {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.list-item-label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #cbd5e1;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .list-item-label {
+    font-size: 14px;
+  }
+}
+
+.salary-ranges-list-container {
+  padding: 0px;
+}
+
+.salary-ranges-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.list-item-radio {
+  margin: 0px 10px 0px 0px;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .list-item-radio {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.filters-group-seperator {
+  border: none;
+  border-top: 1px solid #7e858e;
+  margin: 15px 0px;
+}
+
+@media (min-width: 768px) {
+  .filters-group-seperator {
+    border-width: 2px;
+  }
+}

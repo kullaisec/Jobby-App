@@ -1,0 +1,63 @@
+.failure-view-container {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.failure-view-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+
+.failure-view-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #cbd5e1;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px 0px 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .failure-view-heading {
+    font-size: 30px;
+  }
+
+  .failure-view-text {
+    font-size: 16px;
+  }
+}
+
+.failure-view-btn {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #6366f1;
+  border-style: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 70px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .failure-view-btn {
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+  }
+}

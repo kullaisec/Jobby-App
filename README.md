@@ -2,6 +2,20 @@
 
 https://jobbyapp412.ccbp.tech
 
+### Credentials: 
+
+```json
+{
+  "username": "rahul",
+  "password": "rahul@2021"
+}
+```
+```json
+{
+  "username": "raja",
+  "password": "raja@2021"
+}
+```
 
 ### Design Files
 

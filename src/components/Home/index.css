@@ -14,7 +14,6 @@
 @media (min-width: 768px) {
   .home-page-container {
     background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
-    align-items: center;
   }
 }
 

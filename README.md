@@ -1,3 +1,9 @@
+### 🎯 Built For:
+
+Job seekers and professionals to explore opportunities easily, filter results efficiently, and access job-related details in one place.
+
+(Note: Not real-time data)
+
 ### Live Link: 
 
 https://jobbyapp412.ccbp.tech
